@@ -16,17 +16,13 @@ pip install poetry --user
 Запустить команду
 
 ```
-poetry shell
 poetry install
+poetry shell
 ```
 
 Перейти в папку metanit
 ```
-cd metanit
-```
-Запустить сервер
-```
-python manage.py runserver
+cd housemanagement
 ```
 
 Создать миграции
@@ -34,4 +30,9 @@ python manage.py runserver
 ```
 python manage.py makemigrations
 python manage.py migrate
+```
+
+Запустить сервер
+```
+python manage.py runserver
 ```
